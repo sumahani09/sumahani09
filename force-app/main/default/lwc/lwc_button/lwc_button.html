@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="lwc button" icon-name="standard:account">
+        <lightning-input label="employee name" onchange={handlechange}></lightning-input>
+        <p>name : {name}</p>
+        <lightning-button-group>
+
+            <lightning-button label="submit" onclick={handlesubmit}></lightning-button>
+            <lightning-button label="save" onclick={handlesave}></lightning-button>
+            <lightning-button label="cancel" onclick={handlecancel}></lightning-button>
+
+        </lightning-button-group>
+
+    </lightning-card>
+</template>
